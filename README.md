@@ -24,9 +24,9 @@ To start using QCustomPlot-Fetch, follow these steps:
    ```bash
    cmake -DQCUSTOMPLOT_VERSION="2.1.1" .
    ```
-   Alternatively, you can specify the URL for downloading QCustomPlot entirely through the `QCUSTOMPLOT_URL` variable.
+   Alternatively, you can specify the url for downloading QCustomPlot entirely through the `QCUSTOMPLOT_URL` variable.
 
-3. Call the qcustomplot_attach function and provide the name of the target to which you want to attach the QCustomPlot
+3. Call the `qcustomplot_attach` function and provide the name of the target to which you want to attach the QCustomPlot
    source files:
    ```cmake
    qcustomplot_attach(<target_name>)
