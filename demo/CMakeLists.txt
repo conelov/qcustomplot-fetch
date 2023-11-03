@@ -1,4 +1,4 @@
-project(qcustomplot_demo_as_target)
+project(qcustomplot_demo)
 
 
 find_package(Qt${QT_VERSION} COMPONENTS Core Widgets REQUIRED)
