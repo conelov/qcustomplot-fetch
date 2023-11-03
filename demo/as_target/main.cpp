@@ -1,6 +1,6 @@
 #include <QApplication>
 
-#include <qcustomplot/qcustomplot.h>
+#include <qcustomplot.h>
 
 
 int main(int argc, char* argv[]) {
